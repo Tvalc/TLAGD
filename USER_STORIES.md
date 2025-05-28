@@ -30,3 +30,20 @@
 - As a team, we want TLAGD+ to flag when a meeting spends more than 20% of time on topics not mapped to any OKR, so we can refocus or create new objectives.
 - As a PM, I want to see a dashboard of all agent-attributed recommendations from the last month, grouped by OKR and business impact.
 - As a founder, I want to receive a summary when an MVP scope or feature is at risk of missing its OKR, with recommendations for course correction from the relevant agent.
+
+## 7. Enterprise PMO
+- As an enterprise PMO, I want to onboard via SSO, import Jira/OKR data, and set up a dashboard for cross-team alignment, so I can ensure all teams are focused and accountable.
+- As an enterprise PMO, I want to receive weekly agent-attributed OKR risk reports, so I can proactively address misalignment.
+- As an enterprise PMO, I want to use TLAGD+ for retrospectives and compliance, so I can drive continuous improvement at scale.
+
+## 8. Educator
+- As an educator, I want to launch classroom mode, set up collaborative critique sessions, and give students agent-driven feedback, so they can learn real-world product trade-offs.
+- As an educator, I want to use assessment tools and export artifacts for grading and portfolios, so students have proof of progress and skills.
+
+## 9. Curriculum Designer
+- As a curriculum designer, I want to import my curriculum and map learning objectives to agent critique flows, so lessons are always relevant and actionable.
+- As a curriculum designer, I want to rapidly generate lesson plans and rubrics with agent input, so I can iterate faster and address gaps.
+
+## 10. Accelerator Program Manager
+- As an accelerator manager, I want to onboard my cohort, set up weekly TLAGD+ check-ins, and run demo days with agent summaries, so startups get instant MVP plans and actionable feedback.
+- As an accelerator manager, I want to track startup progress, pivots, and investor readiness with agent-mapped analytics, so I can maximize outcomes for my cohort.

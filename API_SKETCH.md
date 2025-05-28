@@ -47,3 +47,51 @@ TLAGD+ is a set of tools designed to prepare founders and teams to succeed in th
 - Discord bot: `/critique`, `/prioritize`, and `/meeting_summary` commands trigger API calls, post feedback or summaries in channel.
 - Web app: Upload backlog, GDD, or deck and receive actionable plans, persona-driven critique, and meeting/cycle management outputs.
 - Token-gating: Endpoints/enhancements unlock with staked tokens or user tier.
+
+---
+
+## New & Enterprise Endpoints
+
+### `GET /analytics/okr_progress`
+- Input: `{ team_id: str, period: str }`
+- Output: `{ okr_stats: [ { okr: str, progress: float, at_risk: bool } ] }`
+- Description: Returns OKR progress and highlights at-risk objectives for a team or org.
+
+### `GET /audit_logs`
+- Input: `{ user_id: str, range: str }`
+- Output: `{ logs: [ { action: str, timestamp: str, agent: str } ] }`
+- Description: Lists all major actions, agent interventions, and recommendations for compliance and review.
+
+### `POST /integrations/notion`
+- Input: `{ notion_token: str, artifact_id: str }`
+- Output: `{ exported: bool, notion_url: str }`
+- Description: Exports a TLAGD+ artifact to Notion workspace.
+
+### `POST /integrations/jira`
+- Input: `{ jira_token: str, okr_id: str, ticket_data: dict }`
+- Output: `{ created: bool, jira_url: str }`
+- Description: Creates or updates a Jira ticket from an OKR or agent recommendation.
+
+### `POST /integrations/slack`
+- Input: `{ slack_token: str, message: str, channel: str }`
+- Output: `{ posted: bool }`
+- Description: Posts agent-attributed meeting summaries or recommendations to a Slack channel.
+
+### `POST /integrations/google`
+- Input: `{ google_token: str, artifact_id: str, type: str }`
+- Output: `{ exported: bool, google_url: str }`
+- Description: Exports an artifact to Google Slides, Docs, or Sheets.
+
+### `POST /classroom_mode`
+- Input: `{ educator_id: str, class_roster: [str], project_ids: [str] }`
+- Output: `{ session_id: str, feedback: [ { student: str, agent_feedback: str } ] }`
+- Description: Launches a collaborative classroom critique session.
+
+---
+
+## Open API & Integration Guide
+- All endpoints accept and return JSON.
+- Auth via OAuth2 or token-based headers (per-user, per-team, or per-educator).
+- Rate limiting: 1000 requests/day for Free, 10,000 for Pro/Team, unlimited for Enterprise/Education.
+- Webhooks available for artifact export and meeting summary delivery.
+- Sample integration guides for Notion, Jira, Slack, Google Workspace provided in `/docs/integrations/`.

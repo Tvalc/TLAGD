@@ -143,12 +143,111 @@ This document contains early wireframes and detailed UX notes for all major flow
 
 ---
 
-## UX Principles
-- Ruthless clarity, speed, and actionable outputs.
-- Always-on agent presence: planning, meetings, and iteration.
-- Every recommendation and summary mapped to explicit OKRs or business goals.
-- Seamless export and integration with the tools teams already use.
+## 8. Mobile Onboarding Flow
+
+```
++-----------------------------+
+|  TLAGD+ Mobile Onboarding   |
+|-----------------------------|
+|  [Logo]                     |
+|  [Get Started]              |
+|  Paste/upload idea or voice |
+|  [Next >]                   |
++-----------------------------+
+```
+- **Notes:** Mobile-first, quick entry, voice-driven option.
 
 ---
 
-*These wireframes are a living document and will be expanded as new features and flows are added. Next steps: add mobile views, onboarding edge cases, and detailed states for each screen.*
+## 9. Enterprise Dashboard
+
+```
++-------------------------------------------------+
+|  Enterprise OKR Dashboard                       |
+|-------------------------------------------------|
+|  [Team OKR Status]   [Agent Risk Alerts]        |
+|  [Cross-Team Alignment Heatmap]                 |
+|  [Compliance/Audit Logs]                        |
+|  [Export Reports]                               |
++-------------------------------------------------+
+```
+- **Notes:** SSO login, Jira/Notion integration, agent-attributed risk and compliance outputs.
+
+---
+
+## 10. Classroom Mode
+
+```
++-----------------------------------------------+
+|  Classroom Critique Session                   |
+|-----------------------------------------------|
+|  [Student Projects Grid]                      |
+|  [Agent Feedback Panel]                       |
+|  [Export for Grading/Portfolio]               |
++-----------------------------------------------+
+```
+- **Notes:** Educator view for group critique, agent-driven feedback, exportable artifacts.
+
+---
+
+## 11. Accelerator Flow
+
+```
++-----------------------------------------------+
+|  Accelerator Cohort Dashboard                 |
+|-----------------------------------------------|
+|  [Startups List] [Weekly Check-In Summary]    |
+|  [Agent Recommendations]                      |
+|  [Demo Day Prep]                              |
++-----------------------------------------------+
+```
+- **Notes:** Tracks cohort progress, pivots, investor readiness, and agent-attributed analytics.
+
+---
+
+## 12. OKR Dashboard & Agent Feedback Feed
+
+```
++-----------------------------------------------+
+|  OKR Dashboard                               |
+|-----------------------------------------------|
+|  [OKR List] [Progress Bars]                   |
+|  [Agent Feedback Feed]                        |
+|   - PM Agent: "Feature X at risk..."          |
+|   - Tech Lead: "Unblock Y for OKR #2..."      |
+|  [Export/Share]                               |
++-----------------------------------------------+
+```
+- **Notes:** Centralizes all agent-attributed outputs, actionable next steps, and OKR progress.
+
+---
+
+## 13. Upgrade & Monetization Prompts
+
+```
++-------------------------------+
+|  Unlock More with Pro/Team!   |
+|-------------------------------|
+|  [Feature Comparison Table]   |
+|  [Upgrade Button]             |
++-------------------------------+
+```
+- **Notes:** Clear value ladder, upsell/cross-sell flows, and token-gated enhancements.
+
+---
+
+## 14. Accessibility, Multi-Language, and Non-Technical Edge Cases
+
+- **Accessibility:**
+  - Voice-driven onboarding and navigation
+  - High-contrast, screen-reader friendly UI
+- **Multi-Language:**
+  - Instant translation of inputs/outputs
+  - Export artifacts in user’s preferred language
+- **Non-Technical Users:**
+  - Guided templates, tooltips, and agent-driven onboarding
+  - Example projects and one-click start flows
+
+---
+
+*These wireframes are a living document and will be expanded as new features and flows are added. Next steps: add even more detailed states, mobile-specific screens, and onboarding for each persona.*

@@ -35,6 +35,30 @@
 - **Jeff Kaplan (Overwatch):** Hero-based balance, high-stakes production decisions.
 - **Rami Ismail:** Indie dev tactics, bizdev, survival framing.
 
+---
+
+## Expanded Market Personas
+
+### Enterprise PMO
+- **Journey:** Onboards via SSO, imports Jira/OKR data, sets up cross-team alignment dashboard.
+- **First Value:** Sees agent-attributed recommendations and OKR risk reports across all teams.
+- **Retention Loop:** Uses meeting agent for retros, continuous improvement, and compliance tracking.
+
+### Educator
+- **Journey:** Starts in classroom mode, sets up collaborative critique sessions.
+- **First Value:** Students receive agent-driven feedback on projects and see improvement areas.
+- **Retention Loop:** Uses assessment tools and artifact export for grading and portfolios.
+
+### Curriculum Designer
+- **Journey:** Imports curriculum, maps learning objectives to TLAGD+ critique flows.
+- **First Value:** Rapidly generates lesson plans and assessment rubrics with agent input.
+- **Retention Loop:** Iterates curriculum based on agent-surfaced gaps and student outcomes.
+
+### Accelerator Program Manager
+- **Journey:** Onboards cohort, sets up weekly TLAGD+ check-ins and demo days.
+- **First Value:** Startups get instant MVP plans and meeting summaries.
+- **Retention Loop:** Tracks progress, pivots, and investor readiness with agent-mapped analytics.
+
 You can ask for advice in the style of these devs, or let TLAGD+ blend perspectives for a multi-voiced critique. In meetings and cycles, the Meeting Agent surfaces and attributes recommendations from these personas, ensuring every insight is actionable and tied to OKRs or business outcomes.
 
 ## Legendary Game Dev Voices (for flavor & virality)
