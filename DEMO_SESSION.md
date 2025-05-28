@@ -1,4 +1,4 @@
-# TLAGD+ Demo Session
+# TLAGD+ Demo Session (Glitter Cloud Solutions)
 
 ## Scenario: Product Manager Uploads a Feature Backlog for Prioritization
 
@@ -29,6 +29,40 @@ Analyzing your backlog and goals...
 - Focus on features that drive repeat sessions and reduce churn.
 - Delay high-cost, low-impact features (fishing, crafting) until core loops are proven.
 - Prioritize onboarding and social glue before expanding content breadth.
+
+---
+
+## Scenario: TLAGD+ Joins a Sprint Planning Meeting (Meeting & Cycle Management Agent)
+
+**User (Team):**
+We’re starting our sprint planning. Here’s our agenda:
+- Review OKRs
+- Discuss analytics dashboard
+- Address blockers for Feature Y
+
+**TLAGD+ (Meeting Agent):**
+- Joined meeting as facilitator.
+- Monitoring discussion topics and declared OKRs.
+
+**During Meeting:**
+- **TLAGD+ prompts:** “Current discussion on analytics dashboard is not mapped to any declared OKR. Would you like to create or update an OKR for this?”
+- **Team:** “Let’s add an OKR for analytics if it aligns with business goals.”
+
+**After Meeting:**
+**TLAGD+ Meeting Summary:**
+- Reviewed OKRs
+- Discussed analytics dashboard (no current OKR; team to consider adding one)
+- Identified blockers for Feature Y (OKR #2: Ship MVP by June 1)
+
+**Agent Editorial & Recommendations:**
+- *PM Agent:* “Recommend deferring analytics dashboard until a clear OKR is set.”
+- *Tech Lead Agent:* “Suggest unblocking Feature Y by allocating 2 more dev days; this is critical for OKR #2.”
+- *TLAGD+ Insight:* “20% of meeting time was spent on topics outside current OKRs. Consider formalizing an OKR for analytics if business value is validated.”
+
+**Next Steps:**
+- Revisit OKRs in next meeting
+- Assign action items to unblock Feature Y
+- Decide on analytics dashboard OKR
 
 ---
 
