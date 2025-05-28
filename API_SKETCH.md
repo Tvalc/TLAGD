@@ -20,33 +20,87 @@ TLAGD+ is a set of tools designed to prepare founders and teams to succeed in th
 
 ### `POST /mvp_simulate`
 - Input: `{ gdd: str, deadline: str }`
-- Output: `{ mvp_plan: str, experiment_suggestions: [str] }`
-- Description: Suggests a lean MVP plan and what to test first, with explicit OKR mapping and rationale.
 
 ### `POST /founder_mode`
-- Input: `{ deck: str, tokenomics: str, goals: str }`
-- Output: `{ rewritten_pitch: str, viral_hook: str }`
-- Description: Rewrites pitch decks/whitepapers in a game design-centric style, referencing business goals and OKRs.
+- **Input:** `{ deck: str, tokenomics: str, goals: str }`
+- **Output:** `{ rewritten_pitch: str, viral_hook: str }`
+- **Description:** Rewrites pitch decks/whitepapers in a game design-centric style, referencing business goals and OKRs.
+- **Rationale:** High-value feature for founders and entrepreneurs, supporting upsell to premium tiers and custom agent modules.
+- **Usage Flow:**
+  1. User submits pitch deck/whitepaper and selects goals/OKRs.
+  2. API rewrites pitch in a game design-centric style, highlighting key metrics and OKRs.
+  3. User can export or share rewritten pitch directly from UI or via API.
+- **Authentication/Security:** API tokens with granular permissions; audit trail for all rewrites.
+- **Edge Cases:** Ambiguous pitch decks, conflicting goals/OKRs, missing tokenomics.
+- **Business Impact:** Monetizable via premium tiers, API credits, and enterprise licensing.
 
-### `POST /join_meeting`
-- Input: `{ meeting_context: str, agenda: [str], okrs: [str] }`
-- Output: `{ joined: bool, agent_participation_id: str }`
-- Description: TLAGD+ agent joins a meeting (live/async), tracks discussion topics, and monitors OKR alignment.
+### `POST /mvp_simulate`
+- **Input:** `{ gdd: str, deadline: str }`
+- **Output:** `{ mvp_plan: str, experiment_suggestions: [str] }`
+- **Description:** Suggests a lean MVP plan and what to test first, with explicit OKR mapping and rationale.
+- **Rationale:** High-value feature for product teams, supporting upsell to premium tiers and custom agent modules.
+- **Usage Flow:**
+  1. User submits GDD and deadline.
+  2. API generates MVP plan, maps to OKRs, and suggests experiments.
+  3. User can export or share MVP plan directly from UI or via API.
+- **Authentication/Security:** API tokens with granular permissions; audit trail for all simulations.
+- **Edge Cases:** Ambiguous GDD, conflicting deadlines, missing OKRs.
+- **Business Impact:** Monetizable via premium tiers, API credits, and enterprise licensing.
 
-### `POST /okr_focus_prompt`
-- Input: `{ meeting_id: str, current_topic: str, okrs: [str] }`
-- Output: `{ prompt: str }`
-- Description: Prompts team when discussion drifts from declared OKRs or when a new OKR is needed.
+### `POST /backlog_analyze`
+- **Input:** `{ backlog: [str], goals: str, tier: str (optional) }`
+- **Output:** `{ prioritized: [str], rationale: str }`
+- **Description:** Returns prioritized backlog with trade-off rationale (impact vs. dev lift), mapped to user-defined OKRs.
+- **Rationale:** High-value feature for product teams, supporting upsell to premium tiers and custom agent modules.
+- **Usage Flow:**
+  1. User submits backlog and goals.
+  2. API prioritizes backlog, maps to OKRs, and generates rationale.
+  3. User can export or share prioritized backlog directly from UI or via API.
+- **Authentication/Security:** API tokens with granular permissions; audit trail for all analyses.
+- **Edge Cases:** Ambiguous backlog, conflicting goals, missing OKRs.
+- **Business Impact:** Monetizable via premium tiers, API credits, and enterprise licensing.
 
-### `POST /meeting_summary`
-- Input: `{ meeting_id: str }`
-- Output: `{ summary: str, editorial: [ { agent: str, recommendation: str, rationale: str, okr_reference: str } ] }`
-- Description: Generates a meeting summary and editorialized recommendations, referencing which Developer Agent made each recommendation and why, with OKR mapping.
+---
 
-## Integration Examples
-- Discord bot: `/critique`, `/prioritize`, and `/meeting_summary` commands trigger API calls, post feedback or summaries in channel.
-- Web app: Upload backlog, GDD, or deck and receive actionable plans, persona-driven critique, and meeting/cycle management outputs.
-- Token-gating: Endpoints/enhancements unlock with staked tokens or user tier.
+## Integrations (Deep Dive)
+- **Notion, Jira, Slack, Google Workspace:**
+  - OAuth2 authentication, granular permission scopes, and webhook support for real-time updates.
+  - Import/export endpoints for seamless workflow integration (e.g., auto-export meeting summaries, import Jira tickets as backlog items).
+  - Monetization: Integration add-ons, premium export formats, and analytics on usage.
+- **Enterprise SSO (SAML, SCIM):**
+  - User provisioning, role-based access, and audit logs for compliance.
+  - Supports bulk onboarding and automated deprovisioning.
+- **Classroom Mode (LMS Integration):**
+  - API endpoints for assessment export, student progress sync, and feedback delivery to LMS platforms (Canvas, Blackboard, Google Classroom).
+  - Extensible for new LMS partners and education verticals.
+- **Edge Cases:** API versioning, backward compatibility, rate limiting, and partner-specific quirks.
+- **Business Impact:** Drives expansion revenue, supports enterprise and education verticals, and increases stickiness via workflow lock-in.
+
+---
+
+## Analytics & Audit
+- **Endpoints:** Retrieve usage analytics, agent-attributed recommendations, compliance logs, and cohort analytics for accelerators/education partners.
+- **Rationale:** Analytics drive upsell to premium tiers and provide defensible value for enterprise and education customers.
+- **Usage Flow:**
+  1. Admin requests usage analytics or compliance logs via dashboard or API.
+  2. API returns detailed metrics, agent feedback, and exportable reports.
+- **Authentication/Security:** Admin-level API tokens, audit trails, and export logs.
+- **Edge Cases:** Large datasets, privacy requests (right to be forgotten), regulatory audits.
+- **Business Impact:** Enables data-driven upsell, supports compliance, and increases customer retention.
+
+---
+
+## Open API, Extensibility & Rate Limiting
+- **API Tokens:** User, team, and partner automation supported with granular scopes and usage analytics.
+- **Webhooks:** Real-time artifact export, meeting summary delivery, risk alert notifications, and custom agent triggers.
+- **Extensibility:** Partners can build custom integrations, agent modules, and analytics dashboards on top of the core API.
+- **Rate Limiting:** Tiered by plan; premium/enterprise customers get higher quotas and priority support. Abuse detection and throttling built in.
+- **Authentication/Security:** OAuth2, SSO, and token-based auth; all endpoints monitored and logged for compliance.
+- **Business Impact:** Supports ecosystem growth, API monetization, and partner-driven expansion.
+
+---
+
+*For full integration guides, see SAMPLE_INTEGRATIONS.md and KNOWLEDGE_BASE.md. For partnership opportunities and API licensing, contact sales.*
 
 ---
 
