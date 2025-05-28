@@ -51,7 +51,7 @@ Glitter Cloud Solutions builds the next generation of AI-powered tools for produ
 - Anyone with a big idea and limited time/resources
 
 ### Our Vision
-We believe the next generation of products will be built by small, fast teams who can move from idea to MVP in days—not months. TLAGD+ is the operating system for that future. 
+We believe the next generation of products will be built by small, fast teams who can move from idea to MVP in days—not months. TLAGD+ is a set of tools designed to prepare you to succeed in that new world—helping you turn ideas into reality, faster and with greater clarity than ever before.
 
 ---
 
