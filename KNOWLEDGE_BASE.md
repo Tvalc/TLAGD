@@ -29,4 +29,30 @@
 
 ---
 
+## Troubleshooting
+- Common Errors: API authentication, rate limiting, export failures
+- Integration Issues: Notion/Jira/Slack/Google setup troubleshooting
+- Account Problems: Password reset, team/classroom invites, SSO issues
+- For urgent help, visit Discord or open a support ticket
+
+## Advanced Use Cases
+- Custom Agent/Persona creation
+- API automation and webhooks
+- Cohort analytics for accelerators
+- Classroom mode for educators
+- Enterprise compliance and audit logging
+
+## User-Contributed Tips & Best Practices
+- “How I use TLAGD+ to prep for investor meetings”
+- “Best way to run a live critique session”
+- “Optimizing OKR mapping for remote teams”
+- Want to share your tip? Submit via Discord or PR!
+
+## Related Docs
+- [Product Roadmap](ROADMAP.md)
+- [Pricing & Value Ladder](PRICING.md)
+- [Community Launch Plan](COMMUNITY_LAUNCH.md)
+
+---
+
 *This knowledge base is continuously updated. For the latest, visit our Discord or docs site.*

@@ -219,6 +219,14 @@ This document contains early wireframes and detailed UX notes for all major flow
 +-----------------------------------------------+
 ```
 - **Notes:** Centralizes all agent-attributed outputs, actionable next steps, and OKR progress.
+  - **Rationale:** Provides users with a clear view of their OKRs and agent feedback.
+  - **Step-by-Step Flows:** 
+    1. User views OKR list and progress bars.
+    2. User views agent feedback feed.
+    3. User exports or shares OKR progress.
+  - **Edge Cases:** Handles incomplete or missing data, OKR tracking errors.
+  - **Dependencies:** OKR engine, feedback engine, export engine.
+  - **Expected Outcome:** Users can easily view and track their OKRs and agent feedback.
 
 ---
 
@@ -233,6 +241,13 @@ This document contains early wireframes and detailed UX notes for all major flow
 +-------------------------------+
 ```
 - **Notes:** Clear value ladder, upsell/cross-sell flows, and token-gated enhancements.
+  - **Rationale:** Provides users with a clear understanding of upgrade options and benefits.
+  - **Step-by-Step Flows:** 
+    1. User views feature comparison table.
+    2. User clicks "Upgrade Button" to upgrade.
+  - **Edge Cases:** Handles incomplete or missing data, upgrade errors.
+  - **Dependencies:** Upgrade engine, feature comparison algorithm.
+  - **Expected Outcome:** Users can easily upgrade and access additional features.
 
 ---
 
@@ -247,6 +262,14 @@ This document contains early wireframes and detailed UX notes for all major flow
 - **Non-Technical Users:**
   - Guided templates, tooltips, and agent-driven onboarding
   - Example projects and one-click start flows
+  - **Rationale:** Provides users with an accessible and user-friendly experience.
+  - **Step-by-Step Flows:** 
+    1. User selects accessibility option.
+    2. User views multi-language support.
+    3. User uses guided templates and tooltips.
+  - **Edge Cases:** Handles incomplete or missing data, accessibility errors.
+  - **Dependencies:** Accessibility engine, multi-language support, guided templates.
+  - **Expected Outcome:** Users can easily access and use the product.
 
 ---
 
