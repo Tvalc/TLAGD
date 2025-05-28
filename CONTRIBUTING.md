@@ -2,7 +2,19 @@
 
 Thank you for your interest in contributing to TLAGD+! We welcome code, documentation, design, and community contributions from builders of all backgrounds.
 
----
+## Strategic Rationale for Open Contribution
+TLAGD+ is built on the belief that a diverse, global community accelerates innovation, drives defensibility, and creates a product ecosystem that appeals to both users and investors. By welcoming contributions from all backgrounds, we:
+- Rapidly expand features, integrations, and persona coverage.
+- Build a moat through community-driven templates, agents, and best practices.
+- Increase transparency and trust, which is critical for enterprise and education adoption.
+- Demonstrate traction and momentum to investors, supporting the $100M/year vision.
+
+## Contributor Journey
+1. **Discover:** Prospective contributors find TLAGD+ via GitHub, community events, or the marketplace.
+2. **Onboard:** Access clear onboarding docs, starter issues, and Discord support.
+3. **Contribute:** Submit bug fixes, features, documentation, or new personas/agents/templates.
+4. **Review:** Pull requests are reviewed by core maintainers and community experts, with feedback and improvement suggestions.
+5. **Recognize:** Top contributors are featured in release notes, community spotlights, and eligible for ambassador/partner tiers.
 
 ## How to Contribute
 
