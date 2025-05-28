@@ -4,8 +4,10 @@
 
 **TLAGD+ (Think Like a Game Developer Plus) is the world’s first AI-powered product co-pilot that takes you from raw idea to fundable MVP—complete with a pitch-ready artifact, actionable requirements, and OKR alignment—in under an hour.**
 
+**New: TLAGD+ is now the first AI agent that doesn’t just plan, but actively joins your meetings and sprint cycles—keeping your team focused on what matters, prompting for new OKRs when priorities shift, and delivering editorialized, agent-driven summaries with actionable recommendations.**
+
 ### What is TLAGD+?
-TLAGD+ is not just a tool; it’s the missing layer between inspiration and execution for founders, PMs, and indie devs. It turns the chaos of early-stage ideation into a clear, actionable plan that aligns with business goals, unlocks funding, and accelerates team formation. TLAGD+ is your product strategist, technical advisor, and pitch coach—all in one, always available, always founder-centric.
+TLAGD+ is not just a tool; it’s the missing layer between inspiration and execution for founders, PMs, and indie devs. It turns the chaos of early-stage ideation into a clear, actionable plan that aligns with business goals, unlocks funding, and accelerates team formation. TLAGD+ is your product strategist, technical advisor, pitch coach, and now your meeting facilitator—all in one, always available, always founder-centric.
 
 ### Why Now?
 The zero-to-one phase is broken. Most AI tools offer code or generic advice, but none can:
@@ -15,6 +17,7 @@ The zero-to-one phase is broken. Most AI tools offer code or generic advice, but
 - Map every feature to an OKR
 - Generate a pitch artifact ready for investors or team recruitment
 - Offer critique in the voice of legendary founders and PMs
+- **Actively sit in your meetings, keep you focused on OKRs, and editorialize every session with agent-referenced insights**
 
 **TLAGD+ closes this gap.**
 
